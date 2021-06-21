@@ -44,6 +44,10 @@ class Question4 : Fragment(), IOnBackPressed {
 
         answersArray = arguments?.getStringArray(ANSWER_ARRAY_KEY) as Array<String>
 
+        binding.nextButton.setBackgroundColor(
+            binding.previousButton.context.resources.getColor(R.color.gray)
+        )
+
         binding.radioGroup.setOnCheckedChangeListener { _, checkedId ->
             val id = binding.radioGroup.checkedRadioButtonId
             var chosenRadioButton: RadioButton? = null

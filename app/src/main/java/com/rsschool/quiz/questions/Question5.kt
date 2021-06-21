@@ -45,6 +45,10 @@ class Question5 : Fragment(), IOnBackPressed {
 
         answersArray = arguments?.getStringArray(ANSWER_ARRAY_KEY) as Array<String>
 
+        binding.nextButton.setBackgroundColor(
+            binding.previousButton.context.resources.getColor(R.color.gray)
+        )
+
         binding.nextButton.isEnabled = false
         binding.radioGroup.setOnCheckedChangeListener { _, checkedId ->
             binding.nextButton.isEnabled = true
