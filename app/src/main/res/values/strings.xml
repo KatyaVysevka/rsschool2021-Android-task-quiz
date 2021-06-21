@@ -1,3 +1,57 @@
 <resources>
     <string name="app_name">Quiz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="question1">
+        Какое число принято считать несчастливым?
+    </string>
+    <string name="answer1.1">31</string>
+    <string name="answer1.2">7</string>
+    <string name="answer1.3">13</string>
+    <string name="answer1.4">11</string>
+    <string name="answer1.5">33</string>
+
+    <string name="question2">
+        Сколько в килограммах "съесть пуд соли"?
+    </string>
+    <string name="answer2.1">12</string>
+    <string name="answer2.2">13</string>
+    <string name="answer2.3">14</string>
+    <string name="answer2.4">15</string>
+    <string name="answer2.5">16</string>
+
+    <string name="question3">
+        Цапля стоя на одной ноге весит 5 кг. Сколько будет весить цапля, если встанет на обе ноги?
+    </string>
+    <string name="answer3.1">5</string>
+    <string name="answer3.2">10</string>
+    <string name="answer3.3">15</string>
+    <string name="answer3.4">7.5</string>
+    <string name="answer3.5">2.5</string>
+
+    <string name="question4">
+        Сумма каких трех чисел равна их произведению?
+    </string>
+    <string name="answer4.1">1,2,3</string>
+    <string name="answer4.2">2,2,2</string>
+    <string name="answer4.3">3,5,3</string>
+    <string name="answer4.4">1,1,4</string>
+    <string name="answer4.5">0,3,8</string>
+
+    <string name="question5">
+        Какая самая "маленькая" геометрическая фигура?
+    </string>
+    <string name="answer5.1">Отрезок</string>
+    <string name="answer5.2">Точка</string>
+    <string name="answer5.3">Луч</string>
+    <string name="answer5.4">Прямая</string>
+    <string name="answer5.5">Квадрат</string>
+
+    <string name="rightAnswer1">13</string>
+    <string name="rightAnswer2">16</string>
+    <string name="rightAnswer3">5</string>
+    <string name="rightAnswer4">1,2,3</string>
+    <string name="rightAnswer5">Точка</string>
+    <string name="chooser">Send message via...</string>
 </resources>
